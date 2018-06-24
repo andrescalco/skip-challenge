@@ -1,15 +1,31 @@
 import React, { Component } from 'react';
-import { SafeAreaView, View, Text, TextInput, ScrollView } from 'react-native';
+import { SafeAreaView, View, Text, TextInput, ScrollView, FlatList } from 'react-native';
+import RestaurantItem from 'components/RestaurantItem';
 import PaddingView from 'components/PaddingView';
 import { connect } from 'react-redux';
 
 class Search extends Component {
+	componentDid
+
 	state = {
-		search: ''
+		search: '',
+		result: []
 	}
+
+	componentDidMount() {
+		this.setState({ result: [] })
+	}
+
 	
 	searchRestaurants = (e) => {
-		this.setState({ search: e });
+		const { search } = this.state;
+		const regex = new RegExp(search,'i');
+		const result = this.props.restaurants_list.filter( e => regex.test(e.name) );
+		this.setState({ result });
+		setTimeout(() => {
+			this.setState({ search: '' });
+			this.refs.search.blur()
+		})
 	}
 
 	render() {
@@ -19,9 +35,22 @@ class Search extends Component {
 					<ScrollView>
 						<View style={styles.search_container}>
 							<TextInput
+								ref="search"
 								value={this.state.search}
-								onChangeText={this.searchRestaurants}
+								onChangeText={ search => { this.setState({ search }) } }
+								onBlur={this.searchRestaurants}
 								placeholder="Search for restaurants"
+							/>
+						</View>
+						<View style={{ marginTop: 15, marginBottom: 15 }}>
+							<FlatList
+								contentContainerStyle={{ flexGrow: 1 }}
+								data={this.state.result}
+								keyExtractor={item => item.image}
+								renderItem={({item}) => (
+										<RestaurantItem key={item.image} item={item} />
+									)
+								}
 							/>
 						</View>
 					</ScrollView>

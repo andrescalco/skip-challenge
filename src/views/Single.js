@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { SafeAreaView, Text, View, FlatList, Image, ScrollView } from 'react-native';
+import { SafeAreaView, Text, View, FlatList, Image, ScrollView, ActivityIndicator } from 'react-native';
 
 import Title from 'components/Title';
 import PaddingView from 'components/PaddingView';
@@ -62,7 +62,11 @@ class Single extends Component {
 				</SafeAreaView>
 			);
 		} else {
-		return <View />
+			return (
+				<PaddingView>
+					<ActivityIndicator />
+				</PaddingView>
+			)
 		}
 	}
 }
