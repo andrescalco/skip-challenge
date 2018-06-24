@@ -10,6 +10,8 @@ import Home from 'views/Home';
 import Category from 'views/Category';
 import Single from 'views/Single';
 
+import Search from 'views/Search';
+
 const RouterComponent = () => {
 	return (
 		<Router>
@@ -36,9 +38,9 @@ const RouterComponent = () => {
 					<Stack icon={TabIcon} iconName="search" key="search" title="Search">
 						<Scene 
 							key="search_items" 
-							component={Home} 
+							component={Search} 
 							initial 
-							title="What To Eat ?"
+							title="Search"
 						/>
 					</Stack>
 				</Scene>
