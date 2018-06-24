@@ -1,0 +1,57 @@
+[
+	{
+		"category": "fast food",
+		"label": "Fast food",
+		"thumbnail": "https://static.vix.com/pt/sites/default/files/styles/large/public/f/fast-food-1400x800-0118.jpg?itok=7l7Ds7Aw"
+	},
+	{
+		"category": "japanese",
+		"label": "Japanese",
+		"thumbnail": "https://scontent-gru2-1.cdninstagram.com/vp/69379d2b100f729fc18578a21184b644/5BB1745D/t51.2885-15/sh0.08/e35/p640x640/31117212_240774629814279_7967032963915317248_n.jpg"
+	},
+	{
+		"category": "veganvegetarian",
+		"label": "Vegan/ Vegetarian",
+		"thumbnail": "https://scontent-gru2-1.cdninstagram.com/vp/8cb29bb5b2e59b78da13a3ca51d94baf/5BCB7C26/t51.2885-15/sh0.08/e35/p640x640/32694871_179152076242297_5113856506663534592_n.jpg"
+	},
+	{
+		"category": "sandwiches",
+		"label": "Sandwiches",
+		"thumbnail": "https://scontent-gru2-1.cdninstagram.com/vp/9c147054e39211355d1c639c001bdd40/5BADD302/t51.2885-15/sh0.08/e35/p640x640/28434102_152214382263202_6614707814361202688_n.jpg"
+	},
+	{
+		"category": "pizza",
+		"label": "Pizza",
+		"thumbnail": "https://scontent-gru2-1.cdninstagram.com/vp/c4ce75cf7ff33a7b07a6dcb2da9490a6/5BE64FC1/t51.2885-15/sh0.08/e35/p640x640/33721481_222457585199505_2109407517380444160_n.jpg"
+	},
+	{
+		"category": "chicken",
+		"label": "Chicken",
+		"thumbnail": "https://scontent-gru2-1.cdninstagram.com/vp/62b64125b32c99acf7b7431b39277197/5BB1BA36/t51.2885-15/sh0.08/e35/p640x640/34687895_1708854609195910_5314370404951785472_n.jpg"
+	},
+	{
+		"category": "mexican",
+		"label": "Mexican",
+		"thumbnail": "https://scontent-gru2-1.cdninstagram.com/vp/6d810850945ae01f65cbd5ff307bc4ff/5BA96286/t51.2885-15/s640x640/sh0.08/e35/c0.135.1080.1080/31023957_424455404691542_6079005193595256832_n.jpg"
+	},
+	{
+		"category": "gluten free",
+		"label": "Gluten Free",
+		"thumbnail": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/2/19/1/FN_gluten-free-mac-n-cheese_s4x3.jpg.rend.hgtvcom.616.462.suffix/1393442138933.jpeg"
+	},
+	{
+		"category": "burgers",
+		"label": "Burgers",
+		"thumbnail": "https://scontent-gru2-1.cdninstagram.com/vp/11efe7de7e00a107e5da66fc51255024/5BA672FB/t51.2885-15/sh0.08/e35/p640x640/30829494_161839051160999_8088065030647447552_n.jpg"
+	},
+	{
+		"category": "healthy",
+		"label": "Healthy",
+		"thumbnail": "https://www.irishtimes.com/polopoly_fs/1.3145705.1499439547!/image/image.jpg_gen/derivatives/box_620_330/image.jpg"
+	},
+	{
+		"category": "indian",
+		"label": "Indian",
+		"thumbnail": "https://media-cdn.tripadvisor.com/media/photo-s/10/24/98/99/veg-and-non-veg-halal.jpg"
+	}
+]
