@@ -1,6 +1,12 @@
 # What To Eat
 > Winnipeg Edition
 
+## Run the Project
+
+* `clone the repo`
+* `cd folder_name && npm i`
+* `react-native run-ios`
+
 What To Eat, is a react native app, that show to the user, all the winnipeg restaurants.
 
 It lists, all the Skip's partners, grouped by kind. Then the user can see the highest rated restaurants. Clicking on a restaurant, the user fetchs all the information from Google Places API, and it shows the latest 5 reviews from google. 
